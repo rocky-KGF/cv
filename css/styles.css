@@ -1,21 +1,123 @@
-body{
-  background-color: #c6f1d6;
-
+body {
+  margin: 0;
+  text-align: center;
+}
+.mountain{
+  position:relative;
+  top:5px;
+}
+.topcontainer {
+  background-color: #e6f8f9;
+  padding-top: 100px;
+}
+.middlecontainer{
+  background-color: white;
+}
+.bottomcontainer{
+background-color: #3c9d9b;
+}
+.cloud {
+  position: relative;
+  left: 200px;
+  top: 10px;
 }
 
-hr{
- border-style: none;
- border-top-style: dotted;
- border-color: white;
- border-width:5px;
- width: 5%;
-}
-h1{
-   color:  #66BFBF;
-}
-h3{
+.mainheading {
+  margin-bottom: 0;
+  position: relative;
+  top: 20px;
+  font-family: 'Sacramento', cursive;
+  font-size: 80px;
   color: #66BFBF;
 }
-a{
+
+.subheading {
+  position: relative;
+  top: 0;
+  left: auto;
+  font-family: 'Montserrat', sans-serif;
+  color:#3c9d9b;
+}
+
+.cloud1 {
+  display: inline;
+  position: relative;
+  top: 50px;
+  right: 200px;
+}
+.profile{
+  border-radius:500px;
+  position:relative;
+  top:20px;
+}
+.paras{
+
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 0 10px 0;
+}
+.paragraph{
+  width:30%;
+  margin:auto;
+  font-family: 'mukta', sans-serif;
+  padding: 10px 0 20px 0;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom:20px;
+  color: #11999E;
+}
+p{
+  font-family: 'mukta', sans-serif;
+  line-height:2;
+}
+hr{
+  border-style:none;
+  border-top-style: dotted;
+  width:4%;
+  border-top-width:5px;
+  border-color: #EAF6F6;
+
+}
+.contents{
+  width:50%;
+  margin:50px auto 50px auto;
+  text-align: left;
+
+}
+.images{
+  float:left;
+  margin:0 100px 0 10px;
+}
+.images1{
+  float:right;
+  margin:0 10px 50px 100px;
+}
+h1{
+  font-family:"Cabin",sans-serif;
+  margin: 50px 0 30px 0;
+  color: #66BFBF;
+}
+.form{
+  width:170px;
+  height:40px;
+  font-size: 20px;
+  background-color: #c9d99e;
+  margin-bottom:40px;
+  border-radius:10px;
+  border-color: #c9d99e;
+  font-family: 'mukta', sans-serif;
+}
+.form:hover{
+  background-color: #ddf796;
+}
+
+a:hover{
+  color:white;
+}
+.anchor{
+  font-family: 'Montserrat', sans-serif;
+  font-size:20px;
   text-decoration: none;
+  color: #b1e8ed;
+  margin:100px 20px;
 }
